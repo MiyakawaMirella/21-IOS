@@ -1,14 +1,14 @@
 //
-//  api21Tests.swift
-//  api21Tests
+//  vinteumTests.swift
+//  vinteumTests
 //
-//  Created by Mirella Miyakawa on 17/11/23.
+//  Created by Mirella Miyakawa on 21/11/23.
 //
 
 import XCTest
-@testable import api21
+@testable import vinteum
 
-final class api21Tests: XCTestCase {
+final class vinteumTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

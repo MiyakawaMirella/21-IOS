@@ -1,13 +1,13 @@
 //
-//  api21UITestsLaunchTests.swift
-//  api21UITests
+//  vinteumUITestsLaunchTests.swift
+//  vinteumUITests
 //
-//  Created by Mirella Miyakawa on 17/11/23.
+//  Created by Mirella Miyakawa on 21/11/23.
 //
 
 import XCTest
 
-final class api21UITestsLaunchTests: XCTestCase {
+final class vinteumUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
