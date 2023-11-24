@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513695C02678F7D5583E1DEE /* Pods_vinteum_vinteumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88535A8CACA2695C90675F7E /* Pods_vinteum_vinteumUITests.framework */; };
+		92029AE0B5C9191C52CBF450 /* Pods_vinteumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6ABDF94F569F456AB739B3D /* Pods_vinteumTests.framework */; };
 		AF00821B2B0CEEFD00AEB39A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00821A2B0CEEFD00AEB39A /* AppDelegate.swift */; };
 		AF00821F2B0CEEFD00AEB39A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00821E2B0CEEFD00AEB39A /* ViewController.swift */; };
 		AF0082242B0CEEFE00AEB39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0082232B0CEEFE00AEB39A /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		AF0082322B0CEEFF00AEB39A /* vinteumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0082312B0CEEFF00AEB39A /* vinteumTests.swift */; };
 		AF00823C2B0CEEFF00AEB39A /* vinteumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00823B2B0CEEFF00AEB39A /* vinteumUITests.swift */; };
 		AF00823E2B0CEEFF00AEB39A /* vinteumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00823D2B0CEEFF00AEB39A /* vinteumUITestsLaunchTests.swift */; };
+		CF2A69F9B8ACB391F6E3870B /* Pods_vinteum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313390ECED664899A5C31774 /* Pods_vinteum.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		313390ECED664899A5C31774 /* Pods_vinteum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vinteum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		456FCC265E08309DDA1F8DD1 /* Pods-vinteum-vinteumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinteum-vinteumUITests.debug.xcconfig"; path = "Target Support Files/Pods-vinteum-vinteumUITests/Pods-vinteum-vinteumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47275C9949AB45D4BB16CA27 /* Pods-vinteum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinteum.release.xcconfig"; path = "Target Support Files/Pods-vinteum/Pods-vinteum.release.xcconfig"; sourceTree = "<group>"; };
+		5CEC4A82FB02990B73128823 /* Pods-vinteum-vinteumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinteum-vinteumUITests.release.xcconfig"; path = "Target Support Files/Pods-vinteum-vinteumUITests/Pods-vinteum-vinteumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6738E3AB94C8085719DAC44D /* Pods-vinteumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinteumTests.debug.xcconfig"; path = "Target Support Files/Pods-vinteumTests/Pods-vinteumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88535A8CACA2695C90675F7E /* Pods_vinteum_vinteumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vinteum_vinteumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA8A7CAC1A8C381E35A1DDF /* Pods-vinteumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinteumTests.release.xcconfig"; path = "Target Support Files/Pods-vinteumTests/Pods-vinteumTests.release.xcconfig"; sourceTree = "<group>"; };
 		AF0082172B0CEEFD00AEB39A /* vinteum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vinteum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF00821A2B0CEEFD00AEB39A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF00821E2B0CEEFD00AEB39A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +55,8 @@
 		AF0082372B0CEEFF00AEB39A /* vinteumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vinteumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF00823B2B0CEEFF00AEB39A /* vinteumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinteumUITests.swift; sourceTree = "<group>"; };
 		AF00823D2B0CEEFF00AEB39A /* vinteumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinteumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6ABDF94F569F456AB739B3D /* Pods_vinteumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vinteumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD92E0C4671594FD9ABDA315 /* Pods-vinteum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinteum.debug.xcconfig"; path = "Target Support Files/Pods-vinteum/Pods-vinteum.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2A69F9B8ACB391F6E3870B /* Pods_vinteum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92029AE0B5C9191C52CBF450 /* Pods_vinteumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513695C02678F7D5583E1DEE /* Pods_vinteum_vinteumUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,8 @@
 				AF0082302B0CEEFF00AEB39A /* vinteumTests */,
 				AF00823A2B0CEEFF00AEB39A /* vinteumUITests */,
 				AF0082182B0CEEFD00AEB39A /* Products */,
+				AF824D232B0CF59900BA881E /* Frameworks */,
+				D8BCA2066AE24A99EDF097CC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +138,30 @@
 			path = vinteumUITests;
 			sourceTree = "<group>";
 		};
+		AF824D232B0CF59900BA881E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				313390ECED664899A5C31774 /* Pods_vinteum.framework */,
+				88535A8CACA2695C90675F7E /* Pods_vinteum_vinteumUITests.framework */,
+				B6ABDF94F569F456AB739B3D /* Pods_vinteumTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8BCA2066AE24A99EDF097CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD92E0C4671594FD9ABDA315 /* Pods-vinteum.debug.xcconfig */,
+				47275C9949AB45D4BB16CA27 /* Pods-vinteum.release.xcconfig */,
+				456FCC265E08309DDA1F8DD1 /* Pods-vinteum-vinteumUITests.debug.xcconfig */,
+				5CEC4A82FB02990B73128823 /* Pods-vinteum-vinteumUITests.release.xcconfig */,
+				6738E3AB94C8085719DAC44D /* Pods-vinteumTests.debug.xcconfig */,
+				AAA8A7CAC1A8C381E35A1DDF /* Pods-vinteumTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0082412B0CEEFF00AEB39A /* Build configuration list for PBXNativeTarget "vinteum" */;
 			buildPhases = (
+				9FD395A88752384F98810FC4 /* [CP] Check Pods Manifest.lock */,
 				AF0082132B0CEEFD00AEB39A /* Sources */,
 				AF0082142B0CEEFD00AEB39A /* Frameworks */,
 				AF0082152B0CEEFD00AEB39A /* Resources */,
+				C54529548AF2B8BDEDB10B34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0082442B0CEEFF00AEB39A /* Build configuration list for PBXNativeTarget "vinteumTests" */;
 			buildPhases = (
+				1F004B33C9C31876C71A6FC5 /* [CP] Check Pods Manifest.lock */,
 				AF0082292B0CEEFF00AEB39A /* Sources */,
 				AF00822A2B0CEEFF00AEB39A /* Frameworks */,
 				AF00822B2B0CEEFF00AEB39A /* Resources */,
@@ -163,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0082472B0CEEFF00AEB39A /* Build configuration list for PBXNativeTarget "vinteumUITests" */;
 			buildPhases = (
+				7EEDBE341204A232A6FB58FB /* [CP] Check Pods Manifest.lock */,
 				AF0082332B0CEEFF00AEB39A /* Sources */,
 				AF0082342B0CEEFF00AEB39A /* Frameworks */,
 				AF0082352B0CEEFF00AEB39A /* Resources */,
+				8D6C9E178BB87F2C2CA890B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,6 +291,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F004B33C9C31876C71A6FC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vinteumTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EEDBE341204A232A6FB58FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vinteum-vinteumUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6C9E178BB87F2C2CA890B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinteum-vinteumUITests/Pods-vinteum-vinteumUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinteum-vinteumUITests/Pods-vinteum-vinteumUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vinteum-vinteumUITests/Pods-vinteum-vinteumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD395A88752384F98810FC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vinteum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54529548AF2B8BDEDB10B34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinteum/Pods-vinteum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinteum/Pods-vinteum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vinteum/Pods-vinteum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF0082132B0CEEFD00AEB39A /* Sources */ = {
@@ -416,6 +565,7 @@
 		};
 		AF0082422B0CEEFF00AEB39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD92E0C4671594FD9ABDA315 /* Pods-vinteum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +594,7 @@
 		};
 		AF0082432B0CEEFF00AEB39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47275C9949AB45D4BB16CA27 /* Pods-vinteum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +623,7 @@
 		};
 		AF0082452B0CEEFF00AEB39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6738E3AB94C8085719DAC44D /* Pods-vinteumTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +644,7 @@
 		};
 		AF0082462B0CEEFF00AEB39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA8A7CAC1A8C381E35A1DDF /* Pods-vinteumTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		AF0082482B0CEEFF00AEB39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456FCC265E08309DDA1F8DD1 /* Pods-vinteum-vinteumUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +684,7 @@
 		};
 		AF0082492B0CEEFF00AEB39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CEC4A82FB02990B73128823 /* Pods-vinteum-vinteumUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

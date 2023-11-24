@@ -6,14 +6,47 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+    private let button: UIButton = {
+            let button = UIButton()
+            button.setTitle("botao", for: .normal)
+            button.setTitleColor(.orange, for: .normal)
+            button.titleLabel?.font = .systemFont(ofSize: 20, weight: .bold)
+            button.backgroundColor = .systemBlue
+            button.layer.cornerRadius = 10
+            return button
+        }()
 
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            view.backgroundColor = .red
+
+            self.button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+
+            self.view.addSubview(button)
+            button.translatesAutoresizingMaskIntoConstraints = false
+
+//            self.button.setImage("Assets/baralho.png", for: UIControl.State)
+
+//            NSLayoutConstraint.activate([
+//
+//                button.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+//                button.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
+//                button.widthAnchor.constraint(equalToConstant: 120),
+//                button.heightAnchor.constraint(equalToConstant: 44)
+//            ])
+            
+            button.snp.makeConstraints{ make in
+                make.center.equalToSuperview()
+            }
+          }
+
+        @objc private func didTapButton(){
+            print("tapped")
+        }
 
 }
 
