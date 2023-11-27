@@ -16,6 +16,7 @@
 		AF0082322B0CEEFF00AEB39A /* vinteumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0082312B0CEEFF00AEB39A /* vinteumTests.swift */; };
 		AF00823C2B0CEEFF00AEB39A /* vinteumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00823B2B0CEEFF00AEB39A /* vinteumUITests.swift */; };
 		AF00823E2B0CEEFF00AEB39A /* vinteumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00823D2B0CEEFF00AEB39A /* vinteumUITestsLaunchTests.swift */; };
+		AF824D252B14B41400BA881E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF824D242B14B41400BA881E /* MainController.swift */; };
 		CF2A69F9B8ACB391F6E3870B /* Pods_vinteum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313390ECED664899A5C31774 /* Pods_vinteum.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		AF0082372B0CEEFF00AEB39A /* vinteumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vinteumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF00823B2B0CEEFF00AEB39A /* vinteumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinteumUITests.swift; sourceTree = "<group>"; };
 		AF00823D2B0CEEFF00AEB39A /* vinteumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinteumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF824D242B14B41400BA881E /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		B6ABDF94F569F456AB739B3D /* Pods_vinteumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vinteumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD92E0C4671594FD9ABDA315 /* Pods-vinteum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinteum.debug.xcconfig"; path = "Target Support Files/Pods-vinteum/Pods-vinteum.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 				AF0082232B0CEEFE00AEB39A /* Assets.xcassets */,
 				AF0082252B0CEEFE00AEB39A /* LaunchScreen.storyboard */,
 				AF0082282B0CEEFE00AEB39A /* Info.plist */,
+				AF824D242B14B41400BA881E /* MainController.swift */,
 			);
 			path = vinteum;
 			sourceTree = "<group>";
@@ -158,7 +161,6 @@
 				6738E3AB94C8085719DAC44D /* Pods-vinteumTests.debug.xcconfig */,
 				AAA8A7CAC1A8C381E35A1DDF /* Pods-vinteumTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -401,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF00821F2B0CEEFD00AEB39A /* ViewController.swift in Sources */,
+				AF824D252B14B41400BA881E /* MainController.swift in Sources */,
 				AF00821B2B0CEEFD00AEB39A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
